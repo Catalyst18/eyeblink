@@ -9,8 +9,8 @@ user_input = input('This application recognizes your face and eye using the trai
                    '\n It detects eye blink and handles mouse click event\n Press 1 to start the program. '
                    '\n\n To stop the program bring back the window that records the eye movement,cover your camera and press Q ')
 
-face_cascade = cv2.CascadeClassifier('C:\Users\catalyst-Dell\Documents\haarcascade\haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('C:\Users\catalyst-Dell\Documents\haarcascade\haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('C:\....\haarcascade_frontalface_default.xml')#Replace this with the path where you reside the file
+eye_cascade = cv2.CascadeClassifier('C:\....\haarcascade_eye.xml')#Replace this with the path where you reside the file
 cap = cv2.VideoCapture(0)
 # Change these parameters to play with sensitivity
 c1 = 7
